@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/form.css">
+    <title>Bill Tracker - Sign Up</title>
+</head>
+<body>
+    <header>
+            <a href="index.php" class="home">Home</a>
+            <!-- Sign Up Button -->
+            <span><a href="signup.html" class="up">Sign Up</a></span>
+            <!-- Sign In Button -->
+            <span><a href="signin.html" class="in">Sign In</a></span>
+            <div id="content"></div>
+    </header>
+
+<div id="upform">
+<h1>Sign Up</h1>
+
+<form method="post" action="signup.php" enctype="multipart/form-data">
+  <label><input type="text" name="firstname" class="boxes" placeholder="First Name" required="required"></label>
+  <label><input type="text" name="lastname" class="boxes" placeholder="Last Name" required="required"></label>
+  <label><input type="text" name="username" class="boxes" placeholder="Username" required="required"></label>
+  <label><input type="password" name="password" class="boxes" placeholder="Password" required="required"></label>
+
+    <label><input type="file" name="avatar" id="avatar" accept="image/*" class="upload"></label>
+    
+
+  <input type="submit" class="button" value="Sign Up">
+</form>
+</div>
+
+</body>
+</html>

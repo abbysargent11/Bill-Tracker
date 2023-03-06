@@ -1,0 +1,174 @@
+body {
+    background-image: url('background.png');
+    font-family: Copperplate, Papyrus, fantasy;
+    background-size: 150%;
+}
+
+/* Home Button Styling */
+.home {  
+    text-transform: uppercase;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 12px;  
+    color: white; 
+    background-color: #69443C; 
+    display: inline-block; 
+    position: absolute;
+    left: 15px;
+    top: 12px; 
+    padding: 15px;
+    border-radius: 25px;  
+    border: none;
+}
+/* Home Hover */
+.home:hover {
+    background-color: #333333; 
+    border-radius: 25px;   
+}
+
+/* Sign Up Button Styling */
+.up {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 12px;  
+    color: white; 
+    background-color: #69443C; 
+    display: inline-block; 
+    position: absolute;
+    right: 15px;
+    top: 12px; 
+    padding: 15px;
+    border-radius: 25px;  
+    border: none;
+}
+/* Sign Up Button Hover */
+.up:hover {
+    background-color: #333333; 
+    border-radius: 25px; 
+}
+
+/* Sign In Button Styling */
+.in {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 12px;  
+    color: white; 
+    background-color: #69443C; 
+    display: inline-block; 
+    position: absolute;
+    right: 100px;
+    top: 12px; 
+    padding: 15px;
+    border-radius: 25px;  
+    border: none;
+}
+/* Sign In Button Hover */
+.in:hover {
+    background-color: #333333; 
+    border-radius: 25px; 
+}
+
+/* Form box styling */
+.boxes {
+    margin: 25px 30px;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    border-color:  #69443C;
+}
+
+
+/* Submit button styling */
+.button {
+    display: block;
+    color: white;
+    margin-top: 25px;
+    margin-left: 30px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    cursor: pointer;
+    background-color: #69443C;
+    border: none;
+    border-radius: 5px; 
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+
+/* Button Hover */
+.button:hover {
+    background-color: #333333; 
+    border-radius: 8px;   
+}
+
+
+/* Form element styling */
+#upform {
+    display: block;
+    float: center;
+    margin-top: 140px;
+    margin-left: 200px;
+    margin-bottom: 70px;
+    border: 7px solid white;
+    border-radius: 8px; 
+    background-color: white;
+    width: 450px;
+    height: 500px;
+}
+
+/* Form element styling */
+#inform {
+    display: block;
+    float: center;
+    margin-top: 140px;
+    margin-left: 200px;
+    margin-bottom: 70px;
+    border: 7px solid white;
+    border-radius: 8px; 
+    background-color: white;
+    width: 450px;
+    height: 300px;
+}
+
+
+/* "Sign" head styling */
+h1 {
+    color: #69443C;
+    font-size: 28px;
+    text-align: center;
+    padding: 15px;
+}
+
+input::file-selector-button {
+    background-color: white;
+    padding: 10px;
+    margin-left: 30px;
+    display: block;
+    color: grey;
+    border-radius: 5px;
+    border-color:  #69443C;
+  }
+
+.upload {
+    color: transparent;
+}
+
+/* Upload Image Button */
+.upImg {
+    display: block;
+    margin-top: 7px;
+    margin-left: 30px;
+    color: white;
+    background-color: #69443C;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
